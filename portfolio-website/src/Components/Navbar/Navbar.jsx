@@ -13,86 +13,92 @@ function Navbar() {
     return (
         <>
 
-            <nav className="nav container">
+            <section className='section-nav'>
 
-                <a className='nav-logo' href='insex.html'>Smith</a>
+                <nav className="nav container">
 
-                <div className={Toggle ? "nav-menu show-menu" : "nav-menu"}>
+                    <a className='nav-logo' href='insex.html'>Smith</a>
 
-                    <ul className="nav-list grid">
+                    <div className={Toggle ? "nav-menu show-menu" : "nav-menu"}>
 
-                        <li className="nav-item">
+                        <ul className="nav-list grid">
 
-                            <a className='nav-link active-link' href="#home">
+                            <li className="nav-item">
 
-                                <i className='uil uil-estate nav-icon'></i>Home
+                                <a className='nav-link active-link' href="#home">
 
-                            </a>
+                                    <i className='uil uil-estate nav-icon'></i>Home
 
-                        </li>
+                                </a>
 
-                        <li className="nav-item">
+                            </li>
 
-                            <a className='nav-link' href="#about">
+                            <li className="nav-item">
 
-                                <i className='uil uil-user nav-icon'></i>About
+                                <a className='nav-link' href="#about">
 
-                            </a>
+                                    <i className='uil uil-user nav-icon'></i>About
 
-                        </li>
+                                </a>
 
-                        <li className="nav-item">
+                            </li>
 
-                            <a className='nav-link' href="#skills">
+                            <li className="nav-item">
 
-                                <i className='uil uil-file-alt nav-icon'></i>Skills
+                                <a className='nav-link' href="#skills">
 
-                            </a>
+                                    <i className='uil uil-file-alt nav-icon'></i>Skills
 
-                        </li>
+                                </a>
 
-                        <li className="nav-item">
+                            </li>
 
-                            <a className='nav-link' href="#services">
+                            <li className="nav-item">
 
-                                <i className='uil uil-briefcase-alt nav-icon'></i>Services
+                                <a className='nav-link' href="#services">
 
-                            </a>
+                                    <i className='uil uil-briefcase-alt nav-icon'></i>Services
 
-                        </li>
+                                </a>
 
-                        <li className="nav-item">
+                            </li>
 
-                            <a className='nav-link' href="#protfolio">
+                            <li className="nav-item">
 
-                                <i className='uil uil-scenery nav-icon'></i>Protfolio
+                                <a className='nav-link' href="#protfolio">
 
-                            </a>
+                                    <i className='uil uil-scenery nav-icon'></i>Protfolio
 
-                        </li>
+                                </a>
 
-                        <li className="nav-item">
+                            </li>
 
-                            <a className='nav-link' href="#contact">
+                            <li className="nav-item">
 
-                                <i className='uil uil-message nav-icon'></i>Contact
+                                <a className='nav-link' href="#contact">
 
-                            </a>
+                                    <i className='uil uil-message nav-icon'></i>Contact
 
-                        </li>
-                    </ul>
+                                </a>
 
-                    <i class="uil uil-times nav-close" onClick={() => showMenu(!Toggle)}></i>
+                            </li>
+                        </ul>
 
-                </div>
+                        <i class="uil uil-times nav-close" onClick={() => showMenu(!Toggle)}></i>
 
-                <div className="nav-toggle" onClick={() => showMenu(!Toggle)}>
-                    <i class="uil uil-apps"></i>
-                </div>
+                    </div>
+
+                    <div className="nav-toggle" onClick={() => showMenu(!Toggle)}>
+                        <i class="uil uil-apps"></i>
+                    </div>
 
 
 
-            </nav>
+                </nav>
+
+            </section>
+
+
 
         </>
     )
