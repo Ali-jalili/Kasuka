@@ -1,6 +1,9 @@
 import React from 'react'
 import './App.css';
 import Home from './Page/Home';
+import Aboutme from './Page/AboutSection';
+
+
 
 
 function App() {
@@ -9,6 +12,7 @@ function App() {
 
       <Home />
 
+      <Aboutme />
     </>
   );
 }

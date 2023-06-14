@@ -46,7 +46,7 @@ align-items: center;
 }
 
 .home-img{
-    background: url(../../../public/Img/profile.jpg);
+    background: url(../../Img/profile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
