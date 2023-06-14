@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../Components/About/About';
+import Skills from '../Components/Skills/Skills';
 
 const Aboutme = () => {
     return (
@@ -7,6 +8,8 @@ const Aboutme = () => {
         <main className='main'>
 
             <About />
+
+            <Skills />
 
 
 

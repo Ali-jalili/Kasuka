@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
-import Home from './Page/Home';
-import Aboutme from './Page/AboutSection';
+import Home from './Home/Home';
+import Main from './Home/Main.jsx';
 
 
 
@@ -12,7 +12,7 @@ function App() {
 
       <Home />
 
-      <Aboutme />
+      <Main />
     </>
   );
 }
