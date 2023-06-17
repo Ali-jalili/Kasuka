@@ -5,6 +5,14 @@ import CV from '../../Img/John-Cv.pdf';
 import Info from './info';
 
 const About = () => {
+
+    const boxes = [
+        { icon: 'bx bx-award about-icon', title: 'Experience', subtitle: '8 Years Working' },
+        { icon: 'bx bx-briefcase-alt about-icon', title: 'Completed', subtitle: '48 + Projects' },
+        { icon: 'bx bx-support about-icon', title: 'Support', subtitle: 'Online 24/7' },
+    ];
+
+
     return (
         <section className='about section' id='about'>
 
@@ -18,7 +26,11 @@ const About = () => {
 
                 <div className="about-data">
 
-                    <Info />
+                    {/* <Info boxes {...boxes[0]} />
+                    <Info boxes {...boxes[1]} />
+                    <Info boxes {...boxes[2]} /> */}
+
+                    <Info boxes={boxes} />
 
                     <p className="about__description">
                         Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
