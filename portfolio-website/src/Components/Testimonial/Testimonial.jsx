@@ -21,7 +21,7 @@ const Testimonial = () => {
 
     return (
 
-        <section className='testimonial container section'>
+        <section className='testimonial container section' id='testimonial'>
 
             <h2 className="section-title">My clients say</h2>
             <span className="section-subtitle">Testimonial</span>
