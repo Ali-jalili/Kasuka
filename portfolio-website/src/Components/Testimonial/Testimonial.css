@@ -38,3 +38,9 @@
     padding:1.25rem 1.5rem ;
 }
 }
+
+@media screen and (max-width:576px){
+    .testimonial-container{
+        width: 450px;
+    }
+}

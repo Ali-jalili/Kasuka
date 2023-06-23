@@ -48,7 +48,7 @@ const Testimonial = () => {
 
                         },
                         768: {
-                            slidesPerView: 2,
+                            slidesPerView: 1,
                             spaceBetween: 48,
                         },
 
