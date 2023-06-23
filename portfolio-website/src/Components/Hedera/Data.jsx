@@ -8,7 +8,7 @@ const Data = () => {
 
         <div className='home-data'>
 
-            <h1 className="home-title">John Smith
+            <h1 className="home-title">Hi, I am Ali
 
                 <svg
                     width="36"
@@ -61,9 +61,9 @@ const Data = () => {
                 </svg>
             </h1>
 
-            <h3 className="home-subtitle">Visual Designer</h3>
+            <h3 className="home-subtitle">Front-End Developer</h3>
 
-            <p className='home__description'>I'm creative designer based in New York, and I'm very passionate and dedicated to my work.</p>
+            <p className='home__description'>Create Stunning Website for Your Business, Highly in Experienced in Web Design and development.</p>
             <a href="contact" className="button button--flex">
                 Say Hello
                 <svg

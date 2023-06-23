@@ -1,6 +1,7 @@
 import Image1 from '../../Img/testimonial1.png';
 import Image2 from '../../Img/testimonial2.png';
 import Image3 from '../../Img/testimonial3.png';
+import Image4 from '../../Img/testimonial4.png';
 
 export const Data = [
     {
@@ -20,6 +21,13 @@ export const Data = [
     {
         id: 3,
         image: Image3,
+        title: "Sara Cill",
+        description:
+            "A really good job, all aspects of the project were followed step by step and with good results.",
+    },
+    {
+        id: 3,
+        image: Image4,
         title: "Sara Cill",
         description:
             "A really good job, all aspects of the project were followed step by step and with good results.",

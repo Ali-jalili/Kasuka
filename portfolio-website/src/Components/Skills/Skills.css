@@ -18,6 +18,7 @@
     font-weight: var(--font-medium);
     text-align: center;
     margin-bottom: var(--mb-1-5-);
+    color: var(--second-color);
 }
 
 .skills-box{

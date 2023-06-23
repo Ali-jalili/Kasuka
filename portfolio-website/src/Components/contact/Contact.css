@@ -28,7 +28,7 @@
 
 .contact-card-icon{
     font-size: 2rem;
-    color:var(--title-color) ;
+    color:var( --second-color) ;
     margin-bottom: var(--mb-0-25-);
 }
 
