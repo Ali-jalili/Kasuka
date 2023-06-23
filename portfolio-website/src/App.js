@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Home/Home';
 import Main from './Home/Main.jsx';
 import Footer from './Components/Footer/Footer';
+import Scrollup from './Components/Scrollup/Scrollup';
 
 
 
@@ -16,6 +17,8 @@ function App() {
       <Main />
 
       <Footer />
+
+      <Scrollup />
 
     </>
   );
