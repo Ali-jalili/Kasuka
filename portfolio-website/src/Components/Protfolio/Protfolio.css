@@ -1,0 +1,78 @@
+
+
+.protfolio-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 4.8rem;
+    row-gap: 2rem;
+    margin: 0 auto
+}
+
+.box-protfolio{
+    display: grid;
+    text-align: center;
+    row-gap: 1.5rem;
+    text-align: center;
+}
+
+
+.protfolio-btn{
+    color: var(--title-color);
+  margin-bottom: var(--mb-1-5-);
+    transition: 0.2s;
+    font-weight: var(--font-medium);
+    font-size: var(--normal-font-size);
+   
+}
+
+.protfolio-btn:hover{
+    color: var(--title-color-dark);
+}
+
+
+.protfolio-card-item{
+    width: 350px;
+    transition: 0.3s;
+}
+
+.protfolio-card-item img{
+    border-radius: 1rem;
+}
+
+.protfolio-card-item:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 825px){
+     .protfolio-card{
+       column-gap: 1.8rem;
+
+     }
+} 
+
+
+@media screen and (max-width: 768px) 
+{
+  .protfolio-card {
+     grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .protfolio-card-item{
+    width: 270px;
+}
+
+}
+
+
+@media screen and (max-width: 614px){
+
+  .protfolio-card {
+     grid-template-columns: repeat(1, 1fr);
+     row-gap: 2rem;
+
+  }
+
+}

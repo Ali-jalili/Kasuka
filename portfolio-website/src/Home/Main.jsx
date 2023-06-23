@@ -5,6 +5,7 @@ import Services from '../Components/Services/Services';
 import Quailification from '../Components/qualification/Quailification';
 import Testimonial from '../Components/Testimonial/Testimonial';
 import Contact from '../Components/contact/Contact';
+import Protfolio from '../Components/Protfolio/Protfolio';
 
 const Aboutme = () => {
     return (
@@ -16,6 +17,8 @@ const Aboutme = () => {
             <Skills />
 
             <Services />
+
+            <Protfolio />
 
             <Quailification />
 
