@@ -23,6 +23,9 @@
     font-weight: var(--font-medium);
 }
 
+.nav-logo{
+    font-size: var(--normal-font-size);
+}
 
 .nav-list{
     display: flex;
