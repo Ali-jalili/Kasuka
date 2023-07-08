@@ -126,6 +126,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 html{
@@ -266,14 +267,14 @@ img{
 }
 
 @media screen and (max-width:490px){
-  .home{
+  /* .home{
     width: 30.8rem;
-  }
-  .about { 
-   width: 30.8rem;;
-  }
+  } */
+  /* .about { 
+   width: 25rem;;
+  } */
 
-  .skills,.services,.protfolio, .quailification,.contact{
+  /* .skills,.services,.protfolio, .quailification,.contact{
    width: 30.8rem;
   }
 
@@ -283,7 +284,7 @@ img{
 
   .footer{
     width: 31rem;
-  }
+  } */
 }
 
 @media screen and (max-width:350px){

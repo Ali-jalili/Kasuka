@@ -41,12 +41,12 @@
 
 @media screen and (max-width:576px){
     .testimonial-container{
-        width: 450px;
+        width: 380px;
     }
 }
 
-@media screen and (max-width:400px){
+/* @media screen and (max-width:400px){
     .testimonial-container{
         width: 350px;
     }
-}
+} */

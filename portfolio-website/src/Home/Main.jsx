@@ -22,7 +22,7 @@ const Aboutme = () => {
 
             <Quailification />
 
-            {/* <Testimonial /> */}
+            <Testimonial />
 
             <Contact />
 
