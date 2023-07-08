@@ -12,7 +12,7 @@ const Header = () => {
 
         <header className='header'>
 
-            {/* <Navbar /> */}
+            <Navbar />
 
 
             <section className='home section' id='home'>
