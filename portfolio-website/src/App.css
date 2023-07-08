@@ -265,6 +265,23 @@ img{
 }
 }
 
+@media screen and (max-width:490px){
+  .home{
+    width: 30.8rem;
+  }
+  .about { 
+   width: 30.8rem;;
+  }
+
+  .skills,.services,.protfolio, .quailification,.contact{
+   width: 30.8rem;
+  }
+
+  .testimonial{
+    width: 29rem;
+  }
+}
+
 @media screen and (max-width:350px){
   :root{
      --big-font-size:2.25rem
