@@ -280,6 +280,10 @@ img{
   .testimonial{
     width: 29rem;
   }
+
+  .footer{
+    width: 31rem;
+  }
 }
 
 @media screen and (max-width:350px){
