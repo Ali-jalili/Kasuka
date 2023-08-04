@@ -1,6 +1,5 @@
 # React Portfolio Website
-<<<<<<< HEAD
-=======
+
 
 https://react-portfolio-website-5dxv.onrender.com/
 
