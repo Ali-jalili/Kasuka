@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f0e3d63.css",
+    "main.js": "/static/js/main.7f790aab.js",
+    "static/media/profile2.jpg": "/static/media/profile2.ed150be3fd2764537603.jpg",
+    "static/media/about2.jpg": "/static/media/about2.1906f8833f3e5f840652.jpg",
+    "static/media/work4.jpg": "/static/media/work4.c049f8287c75e5cf2fc4.jpg",
+    "static/media/work2.jpg": "/static/media/work2.fbeea0cdbb4502aeb740.jpg",
+    "static/media/work3.jpg": "/static/media/work3.56972fcd2c3aac008da3.jpg",
+    "static/media/work1.jpg": "/static/media/work1.6f37787604aff1e9691d.jpg",
+    "static/media/work5.jpg": "/static/media/work5.8d1ab8997099016eca8f.jpg",
+    "static/media/testimonial3.png": "/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/testimonial2.png": "/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/testimonial4.png": "/static/media/testimonial4.9d37ea54f68d7f760bcf.png",
+    "static/media/testimonial1.png": "/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "static/media/John-Cv.pdf": "/static/media/John-Cv.e83747cf513e0b21a7f1.pdf",
+    "index.html": "/index.html",
+    "main.9f0e3d63.css.map": "/static/css/main.9f0e3d63.css.map",
+    "main.7f790aab.js.map": "/static/js/main.7f790aab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f0e3d63.css",
+    "static/js/main.7f790aab.js"
+  ]
+}
